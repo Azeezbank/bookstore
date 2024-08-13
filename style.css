@@ -1,0 +1,235 @@
+body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  background-color: #ccc;
+
+}
+
+main{
+  background-color: #fff;
+
+  margin: 0 20px;
+
+  padding: 0 10px;
+}
+
+header {
+
+  background-color: #007bff;
+
+  padding: 20px;
+
+  text-align: center;
+
+  color: #fff;
+}
+
+nav ul {
+
+  list-style: none;
+
+  padding: 0;
+
+}
+
+nav ul li {
+
+  display: inline;
+
+  margin: 0 10px;
+
+}
+
+input {
+  border-radius: 8px;
+  border-style: none;
+}
+
+nav ul li a {
+
+  text-decoration: none;
+
+  color: #fff;
+
+}
+
+#hero {
+
+  margin: 20px 0;
+
+}
+
+#hero h1 {
+
+  font-size: 2em;
+
+}
+
+#search {
+
+  padding: 10px;
+
+  width: 200px;
+
+}
+
+#categories {
+
+  padding: 20px;
+
+}
+
+#categories ul {
+
+  list-style: none;
+
+  padding: 0;
+
+}
+
+#categories ul li {
+
+  display: inline;
+
+  margin: 0 10px;
+
+}
+
+#categories ul li button {
+
+  padding: 10px;
+
+  background-color: #007bff;
+
+  color: white;
+
+  border: none;
+
+  cursor: pointer;
+
+}
+
+#categories ul li button:hover {
+
+  background-color: #0056b3;
+
+}
+
+.book-list {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+}
+
+.book {
+
+  border: 1px solid #ddd;
+
+  margin: 10px;
+
+  padding: 10px;
+
+  width: 200px;
+
+  text-align: center;
+
+  background-color: #dedede;
+}
+
+.book img {
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.book button {
+
+  background-color: #007bff;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px;
+
+  cursor: pointer;
+
+}
+
+.book button:hover {
+
+  background-color: #0056b3;
+
+}
+
+.carousel-inner {
+
+  display: flex;
+
+  overflow: hidden;
+
+  width: 100%;
+
+}
+
+.carousel-inner .book {
+
+  min-width: 200px;
+
+}
+
+.carousel-control {
+
+  background-color: #007bff;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px;
+
+  cursor: pointer;
+
+}
+
+.carousel-control:hover {
+
+  background-color: #0056b3;
+
+}
+
+#cart-items {
+
+  margin: 20px 0;
+
+}
+
+#cart-items .book {
+
+  justify-content: space-between;
+
+}
+#ord {
+  background-color: #007bff;
+  text-align: center;
+  padding: 15px;
+  margin: 0 30%;
+  cursor: pointer;
+}
+.wishlist-button {
+  margin: 10px 0px;
+}
+button {
+  border-radius: 8px;
+}

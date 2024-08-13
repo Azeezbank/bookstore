@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Landing Page -->
+
+  <header>
+
+    <nav>
+
+      <ul>
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#books">Books</a></li>
+
+        <li><a href="#categories">Categories</a></li>
+
+        <li><a href="#trending-books">Trending</a></li>
+
+        <li><a href="#daily-deals">Deals</a></li>
+
+        <li><a href="#wishlist">Wishlist</a></li>
+
+        <li><a href="#cart">Cart</a></li>
+
+      </ul>
+
+    </nav>
+
+    <section id="hero">
+
+      <h1>Welcome to Our Online Bookstore</h1>
+
+      <p>Discover your next great read!</p>
+
+      <input type="text" id="search" placeholder="Search for books...">
+
+      <button onclick="searchBooks()">Search</button>
+
+    </section>
+
+  </header>
+
+  <!-- Category Section -->
+<main>
+  <section id="categories">
+
+    <h2>Book Categories</h2>
+
+    <ul id="category-list">
+
+      <li><button onclick="filterBooks('Fiction')">Fiction</button></li>
+
+      <li><button onclick="filterBooks('Non-Fiction')">Non-Fiction</button></li>
+
+      <li><button onclick="filterBooks('Mystery')">Mystery</button></li>
+
+      <li><button onclick="filterBooks('History')">History</button></li>
+
+    </ul>
+
+    <div id="book-list" class="book-list">
+
+      <!-- Books will be dynamically inserted here -->
+
+    </div>
+
+  </section>
+
+  <!-- Trending Books Section -->
+
+  <section id="trending-books">
+
+    <h2>Trending Books</h2>
+
+    <div id="carousel">
+
+      <div id="trending-list" class="carousel-inner">
+
+        <!-- Trending books will be dynamically inserted here -->
+
+      </div>
+
+      <button id="prevBtn" class="carousel-control prev">❮</button>
+
+      <button id="nextBtn" class="carousel-control next">❯</button>
+
+    </div>
+
+  </section>
+
+  <!-- Daily Deals Section -->
+
+  <section id="daily-deals">
+
+    <h2>Daily Deals</h2>
+
+    <div id="daily-deals-list" class="book-list">
+
+      <!-- Daily deals will be dynamically inserted here -->
+
+    </div>
+
+  </section>
+
+  <!-- Wishlist Section -->
+
+  <section id="wishlist">
+
+    <h2>Your Wishlist</h2>
+
+    <div id="wishlist-items" class="book-list">
+
+      <!-- Wishlist items will be dynamically inserted here -->
+
+    </div>
+
+  </section>
+
+  <!-- Cart Section -->
+
+  <section id="cart">
+
+    <h2>Your Cart</h2>
+
+    <div id="cart-items" class="book-list">
+
+      <!-- Cart items will be dynamically inserted here -->
+
+    </div>
+
+    <button id="ord" onclick="orderBooks()">Order Now</button>
+
+  </section>
+</main>
+
+  <script src="index.js"></script>
+</body>
+</html>
