@@ -139,7 +139,7 @@ nav ul li a {
 
   display: grid;
 
-  grid-template-columns: auto;
+  grid-template-columns: 100%;
 
   flex-wrap: wrap;
 
