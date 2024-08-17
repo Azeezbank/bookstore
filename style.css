@@ -124,7 +124,9 @@ nav ul li a {
 
 .book-list {
 
-  display: flex;
+  display: grid;
+
+  grid-template-columns: auto auto auto;
 
   flex-wrap: wrap;
 
