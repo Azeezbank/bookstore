@@ -99,7 +99,7 @@ function initializeBookstore() {
   displayBooks(books);
 
   //displayTrendingBooks(books);
-  //trending()
+  trending()
 
   displayDailyDeals(books);
 
@@ -425,7 +425,6 @@ function trending() {
     trendingList.innerHTML += `${t.title} ${t.author} ${t.category} ${t.price} ${t.description} ${t.trending} ${t.deal} ${t.image} <br>`
   });
 };
-document.addEventListener('DOMContentLoaded', trending);
 
 
 
