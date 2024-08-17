@@ -415,7 +415,7 @@ function setupCarousel() {
 }*/
 
 const trendingList = document.getElementById('trending-list');
-trending-list.innerHTML = '';
+trendingList.innerHTML = '';
 function trending() {
   const trends = books.filter((book) => {
     return book.trending == true
