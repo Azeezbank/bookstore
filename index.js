@@ -414,14 +414,16 @@ function setupCarousel() {
 
 }*/
 
-const trendingList = document.getElementById('trending-books');
-trending
+const trendingList = document.getElementById('trending-list');
+trending-list.innerHTML = '';
 function trending() {
   const trends = books.filter((book) => {
     return book.trending == true
   });
   trends.forEach((t) => {
-    trendingList.innerHTML 
+    trendingList.innerHTML += `${t.title} ${t.author} ${t.category} ${t.price} ${t.description} ${t.trending} ${t.deal} ${t.image} <br>`
+  };
+};
 
 
 
