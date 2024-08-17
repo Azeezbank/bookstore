@@ -352,7 +352,7 @@ function orderBooks() {
 
 // Display trending books in a carousel
 
-function displayTrendingBooks(bookList) {
+/*function displayTrendingBooks(bookList) {
 
   const trendingList = document.getElementById('trending-list');
 
@@ -412,7 +412,11 @@ function setupCarousel() {
 
   });
 
-}
+}*/
+
+
+
+
 
 // Search books by title
 
