@@ -61,7 +61,7 @@ const books = [
   "category": "Fiction",
   "price": 10.99,
   "description": "“Chaos is supposed to be what we most fear but I have come to believe it might be what we most want ..",
-  "trending": false,
+  "trending": true,
   "deal": true,
   "image": "https://i.guim.co.uk/img/media/39b129e925635c73b10f6a2e4c82a52f0522016a/0_187_2700_1620/master/2700.jpg?width=380&dpr=1&s=none"
 },
