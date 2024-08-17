@@ -13,7 +13,7 @@ const books = [
 {
   id: 2,
   title: "Chronicles: Volume One",
-  author: "by Bob Dylan (2004)",
+  author: " Bob Dylan (2004)",
   category: "Fiction",
   price: 12.99,
   description: "The result is both sharp and dreamy, sliding in and out of different phases of Dylan’s career but rooted in his earliest days as a Woody Guthrie wannabe in New York City.",
@@ -24,7 +24,7 @@ const books = [
 {
   id: 3,
   title: "The Siege",
-  author: "by Helen Dunmore (2001)",
+  author: "Helen Dunmore (2001)",
   category: "Mystery",
   "price": 8.99,
   "description": "The Levin family battle against starvation in this novel set during the German siege of Leningrad.",
@@ -35,7 +35,7 @@ const books = [
 {
   "id": 4,
   "title": "Light",
-  "author": "by M John Harrison (2002)",
+  "author": "M John Harrison (2002)",
   "category": "Non-Fiction",
   "price": 10.99,
   "description": "One of the most underrated prose writers demonstrates the literary firepower of science fiction at its best.",
@@ -46,7 +46,7 @@ const books = [
 {
   "id": 5,
   "title": "Priestdaddy",
-  "author": "by Patricia Lockwood (2017)",
+  "author": " Patricia Lockwood (2017)",
   "category": "Non-Fiction",
   "price": 10.99,
   "description": "The author started out as the “poet laureate of Twitter”; her language is brilliant, and she has a completely original mind.",
@@ -57,7 +57,7 @@ const books = [
 {
   "id": 6,
   "title": "The Cost of Living",
-  "author": "by Deborah Levy (2018)",
+  "author": " Deborah Levy (2018)",
   "category": "Fiction",
   "price": 10.99,
   "description": "“Chaos is supposed to be what we most fear but I have come to believe it might be what we most want ..",
@@ -68,7 +68,7 @@ const books = [
 {
   "id": 7,
   "title": "Harvest",
-  "author": "by Jim Crace (2013)",
+  "author": "Jim Crace (2013)",
   "category": "History",
   "price": 10.99,
   "description": "Crace is fascinated by the moment when one era gives way to another. Here, it is the enclosure of the commons, a fulcrum of English history, that drives his story of dispossession and displacement.",
@@ -79,7 +79,7 @@ const books = [
 {
   "id": 8,
   "title": "The Fifth Season",
-  "author": "by NK Jemisin (2015)",
+  "author": "NK Jemisin (2015)",
   "category": "Mystery",
   "price": 10.99,
   "description": "Jemisin became the first African American author to win the best novel category at the Hugo awards for her first book in the Broken Earth trilogy.",
@@ -157,7 +157,7 @@ function createBookElement(book) {
 
     <h3>${book.title}</h3>
 
-    <p>by ${book.author}</p>
+    <p>By ${book.author}</p>
 
     <p>${book.description}</p>
 
