@@ -123,14 +123,8 @@ nav ul li a {
 }
 
 .book-list {
-  
-  position: relative;
-  
-  width: 80%;
 
-  display: grid;
-
-  grid-template-columns: 30% 30%;
+  display: flex;
 
   flex-wrap: wrap;
 
