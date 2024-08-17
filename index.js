@@ -98,8 +98,8 @@ function initializeBookstore() {
 
   displayBooks(books);
 
-  displayTrendingBooks(books);
-  //trending()
+  //displayTrendingBooks(books);
+  trending()
 
   displayDailyDeals(books);
 
@@ -353,7 +353,7 @@ function orderBooks() {
 
 // Display trending books in a carousel
 
-function displayTrendingBooks(bookList) {
+/*function displayTrendingBooks(bookList) {
 
   const trendingList = document.getElementById('trending-list');
 
@@ -413,9 +413,9 @@ function setupCarousel() {
 
   });
 
-}
+}*/
 
-/*const trendingList = document.getElementById('trending-list');
+const trendingList = document.getElementById('trending-list');
 trendingList.innerHTML = '';
 function trending() {
   const trends = books.filter((book) => {
@@ -424,7 +424,7 @@ function trending() {
   trends.forEach((t) => {
     trendingList.innerHTML += `${t.title} ${t.author} ${t.category} ${t.price} ${t.description} ${t.trending} ${t.deal} ${t.image} <br>`
   };
-};*/
+};
 
 
 
