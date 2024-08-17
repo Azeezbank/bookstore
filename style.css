@@ -123,10 +123,12 @@ nav ul li a {
 }
 
 .book-list {
+  
+  width: 100%;
 
   display: grid;
 
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 40% 40%;
 
   flex-wrap: wrap;
 
