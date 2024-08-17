@@ -128,10 +128,24 @@ nav ul li a {
 
   grid-template-columns: 30% 30% 30%;
 
+  gap: 10px;
+
   flex-wrap: wrap;
 
 }
 
+@media (max-width: 800px) {
+  .book-list {
+
+  display: grid;
+
+  grid-template-columns: auto;
+
+  flex-wrap: wrap;
+
+  }
+}
+  
 .book {
 
   border: 1px solid #ddd;
