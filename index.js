@@ -422,7 +422,7 @@ function trending() {
     return book.trending == true
   });
   trends.forEach((t) => {
-    const bookElement = createBookElement(book);
+    const bookElement = createBookElement(t);
     trendingList.appendChild(bookElement);
   });
 };
