@@ -99,7 +99,7 @@ function initializeBookstore() {
   displayBooks(books);
 
   //displayTrendingBooks(books);
-  trending()
+  //trending()
 
   displayDailyDeals(books);
 
