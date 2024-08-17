@@ -422,7 +422,8 @@ function trending() {
     return book.trending == true
   });
   trends.forEach((t) => {
-    trendingList.innerHTML += `${t.title} ${t.author} ${t.category} ${t.price} ${t.description} ${t.trending} ${t.deal} ${t.image} <br>`
+    const bookElement = createBookElement(book);
+    trendingList.appendChild(bookElement);
   });
 };
 
