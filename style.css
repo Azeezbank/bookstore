@@ -128,7 +128,7 @@ nav ul li a {
 
   grid-template-columns: 30% 30% 30%;
 
-  gap: 10px;
+  grid-gap: 15px;
 
   flex-wrap: wrap;
 
@@ -139,7 +139,7 @@ nav ul li a {
 
   display: grid;
 
-  grid-template-columns: 100%;
+  grid-template-columns: 90%;
 
   flex-wrap: wrap;
 
