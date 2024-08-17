@@ -414,7 +414,14 @@ function setupCarousel() {
 
 }*/
 
-
+const trendingList = document.getElementById('trending-books');
+trending
+function trending() {
+  const trends = books.filter((book) => {
+    return book.trending == true
+  });
+  trends.forEach((t) => {
+    trendingList.innerHTML 
 
 
 
