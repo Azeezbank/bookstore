@@ -246,3 +246,9 @@ button {
 #wishlist-items, #cart-items {
   font-size: 10px
 }
+footer {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+}
